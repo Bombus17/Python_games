@@ -1,5 +1,6 @@
-# Guess the number game
-# Use has 5 guesses
+# Author: 	azmathias Stuperuser Ltd.
+# Purpose: 	Guess the number game. User has 5 attempts to guess a number between 1 and 20. 
+# ToDo: 	Add Error Handling
 
 
 import random

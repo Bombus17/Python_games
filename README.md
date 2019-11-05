@@ -1,9 +1,13 @@
 ### Python Games
 
-Various games coded in Python
+Various games coded in Python. 
 
-**Pong**
+###Pong
 
-A console based version of the classic game developed in the early stages of my learning Python. Will code another one using OOP as well as imporve the GUI.
+A very simple console based version of the classic game. 
+
+###Guess the Number
+User has 5 attempts to guess a number between 1 and 20. 
+
 
 
