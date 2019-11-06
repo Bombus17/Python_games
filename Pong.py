@@ -1,4 +1,6 @@
-  
+ #Author:	azmathias Stuperuser Ltd
+ #Purpose:	A very simple console Pong solution, coded in the early stages of learning Python
+ #TODO:		Develop another solution using OOP, add sounds, refine response times  
 
     
 import turtle
@@ -54,7 +56,7 @@ pen.hideturtle()
 pen.goto(0,260)
 pen.write("Player A: 0 Player B: 0", align="center", font=("Courier", 14, "normal"))
 
-# Function to move the paddle A, y coords
+# Function to move paddle A, y coords
 def paddle_a_up():
 	y = paddle_a.ycor()
 	y += 20
@@ -66,7 +68,7 @@ def paddle_a_down():
 	paddle_a.sety(y)
 	
 	
-# Function to move the paddle B, y coords	
+# Function to move paddle B, y coords	
 def paddle_b_up():
 	y = paddle_b.ycor()
 	y += 20
