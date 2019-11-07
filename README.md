@@ -1,6 +1,6 @@
 ## Python Games
 
-Various games coded in Python.
+Various games coded in Python. Will add more as I produce them. 
 
 * [Pong](#Pong)
 * [Guess the Number](#Guess-the-number) 
