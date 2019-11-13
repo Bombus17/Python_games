@@ -2,8 +2,9 @@
 #Purpose:	Command line Connect 4 game
 #
 #
-#TODO:		Create graphic board, track scores, replay game
-#			select board size, check valid selection, error handling
+#TODO:		Create graphic board, track scores, replay game?, TESTING
+#			check valid selection, error handling
+#Extensions: Allow user to select the board size
 
 import numpy as np
 
@@ -41,7 +42,7 @@ def win(board, piece):
 		for r in range(ROW_COUNT):
 			if board[r][c] == piece and board[r][c+1]== piece and board[r][c+2] == piece and board[r][c+3] == piece:
 				return True
-	# check vertical
+	# check vertical (not working correctly for player 2)
 	for c in range(COLUMN_COUNT):
 		for r in range(ROW_COUNT-3):
 			if board[r][c] == piece and board[r+1][c]== piece and board[r+2][c] == piece and board[r+3][c] == piece:
@@ -85,7 +86,7 @@ while not game_over:
 			row = get_next_row(board, selection)
 			play(board, row, selection, PLAYER_2)
 			
-			if win(board, 1):
+			if win(board, 2):
 				print("\nPLAYER 2 WINS!!!\n")
 				game_over = True
 	
