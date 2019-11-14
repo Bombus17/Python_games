@@ -21,7 +21,7 @@ Instructions: Follow the instructions to guess the number for a maximum of 5 att
 ### Connect 4
 Command line version of Connect 4.  
 Instructions: Each player takes a move, first one to reach for in a row wins.  
-TODO: see comments
+
 
  
 
