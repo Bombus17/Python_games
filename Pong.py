@@ -1,6 +1,6 @@
  #Author:	azmathias Stuperuser Ltd
  #Purpose:	A very simple console Pong solution, coded in the early stages of learning Python
- #TODO:		Develop another solution using OOP, add sounds, refine response times  
+ #TODO:		Develop another solution using OOP, add sounds, refine response times, create a movement class
 
     
 import turtle
